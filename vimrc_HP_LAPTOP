@@ -219,8 +219,8 @@ set laststatus=2 " Always show statusline, even if only 1 window.
 set statusline=[%l,%v\ %P%M]\ %f\ %r%h%w\ (%{&ff})\ %{fugitive#statusline()}
 
 " displays tabs with :set list & displays when a line runs off-screen
-set listchars=tab:>-,eol:$,trail:-,precedes:<,extends:>
-set list
+" set listchars=tab:>-,eol:$,trail:-,precedes:<,extends:>
+" set list
 
 """ Searching and Patterns
 set ignorecase " Default to using case insensitive searches,
@@ -230,7 +230,7 @@ set hlsearch " Highlight searches by default.
 set incsearch " Incrementally search while typing a /regex
 
 """" Display
-set guifont=Monospace\ 10
+set guifont=Monaco\ 10
 if has("gui_running")
     colorscheme anotherdark
 else
